@@ -16,9 +16,9 @@ public final class App {
         IMC calculO = new IMC();
         String estado = calculO.calcularIMC(Maria);
 
-        System.out.println(Maria.getName()+" con peso " + Maria.getPeso() + " y altura " + Maria.getAltura() + " indica un estado " + estado );
-        
+        System.out.println(Maria.getName() + " con peso " + Maria.getPeso() + " y altura " + Maria.getAltura()
+                + " indica un estado " + estado);
+
     }
 
-    
 }
