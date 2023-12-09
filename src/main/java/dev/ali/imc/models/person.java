@@ -1,11 +1,11 @@
-package dev.ali.imc;
+package dev.ali.imc.models;
 
-public class person {
+public class Person {
     public String name;
     public double peso;
     public double altura;
 
-    public person(String name, double peso, double altura) {
+    public Person(String name, double peso, double altura) {
         this.name = name;
         this.peso = peso;
         this.altura = altura;
